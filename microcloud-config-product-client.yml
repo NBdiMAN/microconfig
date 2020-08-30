@@ -36,8 +36,8 @@ eureka:
 info:
   app.name: microcloud-provider-product
   company.name: wy
-  build.artifactId: $project.artifactId$
-  build.modelVersion: $project.modelVersion$
+  build.artifactId: @project.artifactId@
+  build.modelVersion: @project.modelVersion@
 
 management:
   endpoints:
@@ -80,8 +80,8 @@ eureka:
 info:
   app.name: microcloud-config-product-client
   company.name: wy
-  build.artifactId: $project.artifactId$
-  build.modelVersion: $project.modelVersion$
+  build.artifactId: @project.artifactId@
+  build.modelVersion: @project.modelVersion@
 
 management:
   endpoints:
